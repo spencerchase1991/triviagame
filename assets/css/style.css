@@ -1,0 +1,84 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(104, 98, 98);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.jumbotron {
+  box-sizing: border-box;
+  background-color: rgba(63, 55, 55, 0);
+  padding-bottom: 20%;
+}
+
+.main-button-container {
+  margin-top: 175px;
+  max-width: 610px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 800px;
+}
+
+.timer-p {
+  margin-top: 40px;
+}
+
+.answer:hover {
+  background: powderblue;
+}
+
+.answer {
+  padding-top: 7px;
+  height: 45px;
+  width: 100%;
+  color: rgb(34, 32, 32);
+  padding-left: 14px;
+  background-color:rgb(160, 153, 153);
+  border-radius: 4px;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.answer:focus{
+  background-color: none;
+}
+
+.img-right {
+  margin-top: 40px;
+  height: 25em;
+  width: 25em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.first-answer {
+  margin-top: 40px;
+}
+
+.start-button {
+  padding: .25em 7em .25em 7em;
+  background-color: rgb(160, 153, 153);
+  border: none;
+  font-size: 20px;
+}
+
+.start-button:hover {
+  background-color: powderblue;
+}
+
+.reset-button {
+  padding: .25em 7em .25em 7em;
+  background-color: #777;
+  border: none;
+}
+
+.reset-button:hover {
+  background-color: powderblue;
+}
+
+.summary-correct {
+  margin-top: 40px;
+}
